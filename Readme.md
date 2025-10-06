@@ -6,14 +6,37 @@ You will implement two cryptosystems:
     
 
 Draw a flowchart for this [problem](#problem).
-> Flowchart : [Flowchart](Crytography_flowchart.png)
+> Flowchart : ![Flowchart](Crytography_flowchart.png)
 
 Make code to solve the [problem](#problem)
 > Da code : [code](.src/main.c)
 
+
+## Caesar
+You have to implement two functions:
+```
+> char *caesar_encrypt(char *plaintext);
+> char *caesar_decrypt(char *ciphertext);
+```
+These functions work in-place, in other words, you don’t have to create a new string for the encrypted/decrypted text.
+
+## Vigenère
+Similar to Caesar, however every character in the plaintext can be shifted by a variable amount. The amount to shift is determined by the key of alphabetic characters, where A corresponds to 0, B 1, etc. There is a wrap-around if necessary like in Caesar.
+
+Implement the functions:
+```
+> char *vigenere_encrypt(char *plaintext, char *key);
+> char *vigenere_decrypt(char *ciphertext, char *key);
+```
+## Asumptions
+You can assume that plaintext:
+    is uppercase
+    contains no spaces, numbers or punctuation
+
+
 ---
 
-## Problem 
+# Problem 
 
 Implement the cryptosystem in section Cryptography. 
 
@@ -27,7 +50,6 @@ Implement the cryptosystem in section Cryptography.
 
 
 
-## Changes
-
-
+# Changes
+1. Made *vigenere_encrypt* and *vigenere_decrypt* into a single function with a parameter to change modes instead
 
