@@ -9,7 +9,10 @@ Draw a flowchart for this [problem](#problem).
 > Flowchart : ![Flowchart](Crytography_flowchart.png)
 
 Make code to solve the [problem](#problem)
-> Da code : ![code](.src/main.c)
+> Da code : [code](.src/main.c)
+
+Changes made to the problem
+> Da [Changes](#Changes)
 
 ---
 
