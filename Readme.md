@@ -52,13 +52,12 @@ You can assume that plaintext:
     is uppercase
     contains no spaces, numbers or punctuation
 
-## Modularization
+# Modularization
 I made the function ***talCirkulærRundingMinMax()***, so i could easily get a int that fit in the alphabet mulitple times. 
 caesar is a function that can en/decrypt text based on an int
 Vigenère is a function that can en/decrypt text based on a char
 
 # Changes
-1. Made 
-    - *vigenere_encrypt* and *vigenere_decrypt* into a single function with a parameter to change modes instead
-    - Same for the Caesar functions
+1. Made *vigenere_encrypt* and *vigenere_decrypt* into a single function with a parameter to change modes instead
+2. Same for the Caesar functions
 
