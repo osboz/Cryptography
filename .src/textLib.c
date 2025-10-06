@@ -23,7 +23,6 @@ int talCirkulærRundingMinMax(int input, int min, int max)
  * }
  */
 
-
 int talCirkulærRunding(int input, int max)
 {
   return ((input % (max + 1)) + (max + 1)) % (max + 1);

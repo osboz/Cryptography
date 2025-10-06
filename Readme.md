@@ -14,6 +14,8 @@ Make code to solve the [problem](#problem)
 Changes made to the problem
 > Da [Changes](#Changes)
 
+Explain where i used modularization
+> [here|•◡•|](#Modularization)
 ---
 
 # Problem 
@@ -24,7 +26,7 @@ Implement the cryptosystem in section Cryptography.
 - Flowchart
 - Has a command-line interface
 - Use modularization as much as possible, i.e., header files, functions for repetitive code.
-- What was your modularization approach to each part you have implemented, i.e., CLI, Caesar, Vigenere? 1-3 sentences per part are enough. Include this test in your README.
+- What was your [modularization](#Modularization) approach to each part you have implemented, i.e., CLI, Caesar, Vigenere? 1-3 sentences per part are enough. Include this test in your README.
 - For your header files you use include folder.
 - Your header file is documented using Doxygen syntax.
 
@@ -50,9 +52,13 @@ You can assume that plaintext:
     is uppercase
     contains no spaces, numbers or punctuation
 
-
-
+## Modularization
+I made the function ***talCirkulærRundingMinMax()***, so i could easily get a int that fit in the alphabet mulitple times. 
+caesar is a function that can en/decrypt text based on an int
+Vigenère is a function that can en/decrypt text based on a char
 
 # Changes
-1. Made *vigenere_encrypt* and *vigenere_decrypt* into a single function with a parameter to change modes instead
+1. Made 
+    - *vigenere_encrypt* and *vigenere_decrypt* into a single function with a parameter to change modes instead
+    - Same for the Caesar functions
 
