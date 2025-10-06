@@ -9,7 +9,21 @@ Draw a flowchart for this [problem](#problem).
 > Flowchart : ![Flowchart](Crytography_flowchart.png)
 
 Make code to solve the [problem](#problem)
-> Da code : [code](.src/main.c)
+> Da code : ![code](.src/main.c)
+
+---
+
+# Problem 
+
+Implement the cryptosystem in section Cryptography. 
+
+## Requirements:
+- Flowchart
+- Has a command-line interface
+- Use modularization as much as possible, i.e., header files, functions for repetitive code.
+- What was your modularization approach to each part you have implemented, i.e., CLI, Caesar, Vigenere? 1-3 sentences per part are enough. Include this test in your README.
+- For your header files you use include folder.
+- Your header file is documented using Doxygen syntax.
 
 
 ## Caesar
@@ -33,20 +47,6 @@ You can assume that plaintext:
     is uppercase
     contains no spaces, numbers or punctuation
 
-
----
-
-# Problem 
-
-Implement the cryptosystem in section Cryptography. 
-
-### Requirements:
-- Flowchart
-- Has a command-line interface
-- Use modularization as much as possible, i.e., header files, functions for repetitive code.
-- What was your modularization approach to each part you have implemented, i.e., CLI, Caesar, Vigenere? 1-3 sentences per part are enough. Include this test in your README.
-- For your header files you use include folder.
-- Your header file is documented using Doxygen syntax.
 
 
 
