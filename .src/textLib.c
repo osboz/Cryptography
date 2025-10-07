@@ -15,6 +15,7 @@ int talCirkulærRundingMinMax(int input, int min, int max)
 
   return output;
 }
+
 /** version jeg ikke ville kunne bruge om 1 måned fordi jeg ville have glemt hvordan den virker
  * int talCirkulærRundingMinMax(int input, int min, int max)
  * {
